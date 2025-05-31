@@ -1,0 +1,50 @@
+# Python 缓存
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.db
+*.sqlite3
+
+# 模型文件
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+
+# 数据集
+data/
+dataset/
+datasets/
+
+# 日志与输出
+logs/
+output/
+results/
+runs/
+wandb/
+tensorboard/
+
+# 环境与依赖
+env/
+venv/
+__pypackages__
+*.egg-info/
+dist/
+build/
+
+# 其他大文件或系统文件
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Git LFS 占位符（如果你以后用 Git LFS）
+*.lfs.*
